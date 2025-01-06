@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "jetbrains mono";
+}
+body {
+  background: greenyellow;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+.mainbox {
+  display: block;
+  background: rgb(8, 81, 8);
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  border: 25px 5px 22px 45px 0.2 salmon;
+  border-radius: 15px;
+  width: 420px;
+}
+.mainbox h3 {
+  font-size: 25px;
+}
+.mainbox .login-information {
+  padding: 5px;
+  width: 100%;
+}
